@@ -53,8 +53,8 @@
                                 $mail->isSMTP();
                                 $mail->Host       = 'smtp.gmail.com';
                                 $mail->SMTPAuth   = true;
-                                $mail->Username   = 'sairamnimmadi@gmail.com';
-                                $mail->Password   = 'Backbencher#18';
+                                $mail->Username   = 'your email';
+                                $mail->Password   = 'your email password';
                                 $mail->SMTPSecure = "ssl";
                                 $mail->Port       = 465;
                                 $mail->isHTML(true);
